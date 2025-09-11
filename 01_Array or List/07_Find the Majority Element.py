@@ -29,7 +29,7 @@ def majority_boyer_moore_debug(arr):
             candidate = num
             count = 1
 
-        elif count == candidate:
+        elif num == candidate:
             count += 1
 
         else:
@@ -41,4 +41,5 @@ def majority_boyer_moore_debug(arr):
         print("No majority element")
 
 arr =  [2,2,1,1,3,2,2,1,1,2,3,2,1,1]
+
 majority_boyer_moore_debug(arr)
