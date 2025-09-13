@@ -25,7 +25,7 @@ def Hollow_Square_v2(gridsize):
         print(" ".join(line))
 
 
-def Hollow_Square_v3(gridsize):
+def Hollow_Square_Digonal(gridsize):
 
     for row in range(1,gridsize+1):
         line = []
@@ -47,4 +47,5 @@ if __name__ == "__main__":
 
     Hollow_Square(5)
     Hollow_Square_v2(5)
-    Hollow_Square_v3(9)
+    Hollow_Square_Digonal(9)
+
