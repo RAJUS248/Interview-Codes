@@ -52,7 +52,7 @@ class SLL:
             cur_node = cur_node.next
 
         print("None")
-
+ 
 sll = SLL()
 sll.insert_at_beginning(10)
 sll.insert_at_beginning(20)
@@ -66,3 +66,4 @@ sll1.insert_at_end(20)
 sll1.print_nodes()
 sll1.revers()
 sll1.print_nodes()
+
