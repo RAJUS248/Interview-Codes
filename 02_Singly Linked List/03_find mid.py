@@ -37,6 +37,7 @@ sll.insert_at_beginning(30)
 sll.insert_at_beginning(40)
 sll.insert_at_beginning(50)
 sll.insert_at_beginning(60)
-# sll.insert_at_beginning(70)
+sll.insert_at_beginning(70)
 sll.print_list()
+
 sll.mid_node()
