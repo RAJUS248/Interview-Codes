@@ -23,7 +23,6 @@ class SLL:
             cur_node = next_node
         self.head = prev
 
-
     def print_list(self):
         cur_node = self.head
 
@@ -39,4 +38,5 @@ sll.insert_at_beginning(20)
 sll.insert_at_beginning(30)
 sll.print_list()
 sll.reverse()
+
 sll.print_list()
