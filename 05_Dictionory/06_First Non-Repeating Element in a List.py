@@ -8,7 +8,7 @@ def first_non_rep(arr):
         if is_unique:
             return arr[i]
 
-arr = [9, 4, 9, 6, 7, 4]
+arr = [9, 4, 9, 6, 7, 4] 
 print(first_non_rep(arr))
 
 
@@ -35,4 +35,5 @@ def first_non_rep_v2(arr):
 
 arr = [9, 4, 9, 6, 7, 4]
 print(first_non_rep_v2(arr))
+
 
