@@ -38,6 +38,20 @@ arr = [9, 4, 9, 6, 7, 4]
 print(first_non_rep_v2(arr))
 
 
+# best version and time Complexity is O (n) 
+
+from collections import Counter
+def first_non_rep_v3(arr):
+    counter = Counter(arr)
+    for num in counter:
+        if counter[num] == 1:
+            return num
+
+arr = [9, 4, 9, 6, 7, 4]
+print(first_non_rep_v3(arr))
+
+
+
 
 
 
