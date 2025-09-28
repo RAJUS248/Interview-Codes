@@ -33,8 +33,10 @@ def first_non_rep_v2(arr):
             return f"the key is {key} and the count is {value}"
     """
 
+
 arr = [9, 4, 9, 6, 7, 4]
 print(first_non_rep_v2(arr))
+
 
 
 
