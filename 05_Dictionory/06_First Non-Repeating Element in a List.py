@@ -11,7 +11,7 @@ def first_non_rep(arr):
 arr = [9, 4, 9, 6, 7, 4] 
 print(first_non_rep(arr))
 
-
+# best version and time Complexity is O (n) 
 def first_non_rep_v2(arr):
     seen = {}
 
@@ -36,6 +36,7 @@ def first_non_rep_v2(arr):
 
 arr = [9, 4, 9, 6, 7, 4]
 print(first_non_rep_v2(arr))
+
 
 
 
