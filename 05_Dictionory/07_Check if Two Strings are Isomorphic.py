@@ -16,9 +16,10 @@ def is_isomorphic(string1,string2):
         s1[c1] = c2
         s2[c2] = c1
 
-    return "true"
+    return False
         
 string1 = "badc"
 string2 = "baba"
+
 
 print(is_isomorphic(string1,string2))
