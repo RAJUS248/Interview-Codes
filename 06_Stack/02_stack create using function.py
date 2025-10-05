@@ -5,7 +5,7 @@ def is_empty(stack):
     return len(stack) == 0
 
 # Push Operation
-
+ 
 def push(stack,item):
     stack.append(item)
     print(f"the {item} is pushed in stack")
@@ -73,3 +73,4 @@ if __name__ == "__main__":
     peek(stack)
 
     
+
