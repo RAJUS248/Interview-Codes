@@ -9,7 +9,7 @@ class Stack:
         self.stack.append(item)
         print(f"{item} is pushed")
 
-    def peek(self):
+    def peek(self): 
         if self.is_empty():          # ✅ use your own method
             print("Error: Stack is empty")
             return None
@@ -81,5 +81,6 @@ s.peek(stack)
 s.pop(stack)
 s.display(stack)
 Stack.display(stack)
+
 
 """
