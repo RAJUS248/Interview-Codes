@@ -7,7 +7,7 @@ class Stack:
     
     def push(self, item):
         self.stack.append(item)
-        print(f"{item} is pushed")
+        print(f"{item} is pushed")  
 
     def peek(self): 
         if self.is_empty():          # ✅ use your own method
@@ -84,3 +84,4 @@ Stack.display(stack)
 
 
 """
+
