@@ -7,7 +7,7 @@ def postfix(string):
 
         else:
             num1 = stack.pop()
-            num2 = stack.pop()
+            num2 = stack.pop() 
 
             if ch == "+":
                 stack.append(num2 + num1)
@@ -24,4 +24,5 @@ def postfix(string):
     return stack.pop()
 
 string = "231*+9-"
+
 print(postfix(string))
