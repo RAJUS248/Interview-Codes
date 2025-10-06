@@ -6,7 +6,7 @@ class Node:
 
 class SLL:
     def __init__(self):
-        self.head = None
+        self.head = None 
 
     def insert_at_beginning(self,data):
         new_node = Node(data)
@@ -87,4 +87,5 @@ sll1 = SLL()
 sll1.insert_at_end(10)
 sll1.insert_at_end(20)
 sll1.print_nodes()
+
 
