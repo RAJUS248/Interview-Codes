@@ -8,7 +8,7 @@ def palindrome(string):
             return False
         start += 1 
         end -= 1 
-
+  
     return True 
 print(palindrome("mamaamam"))
         
@@ -19,5 +19,6 @@ def palindrome_v2(string):
 print(palindrome_v2("mada"))
 
         
+
 
 
