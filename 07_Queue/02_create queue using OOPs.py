@@ -20,28 +20,28 @@ class Queue:
     
     
     def size(self):
-        print("the size of queue is :",len(self.queue))
+        return len(self.queue)
 
 
     def display(self):
         print(self.queue)
-        
+
 
 q = Queue()
 
-q.is_empty() 
+print(q.is_empty()) 
 q.enqueue(10)
 q.enqueue(20)
 q.enqueue(30)
 
 q.display()
-q.size()
+print("the size of queue is :",q.size())
 q.dequeue()
 q.dequeue()
 q.dequeue()
 q.dequeue()
 q.display()
 
-q.is_empty() 
+print(q.is_empty()) 
 
-q.size()
+print("the size of queue is :",q.size())
