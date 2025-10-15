@@ -23,6 +23,14 @@ def missingNum(arr):
 arr = [1]
 missingNum(arr)
 
+# or
+def missingNum(self, arr):
+        # code here
+        n = len(arr) + 1
+        missing = n * (n + 1)//2 - sum(arr)
+        
+        return missing
+
 
 
 
@@ -65,5 +73,6 @@ def miss(arr):
     
 arr = [0,7]
 print(miss(arr))
+
 
 
