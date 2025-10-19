@@ -1,4 +1,4 @@
-def lruchace(a,b):
+def lrucache(a,b):
     seen = {}
     size = 0
 
@@ -37,4 +37,4 @@ def lruchace(a,b):
 a = ["LRUCache", "put", "put", "get", "put", "get", "put", "get", "get", "get"]
 b = [[2], [1, 1], [2, 2], [1], [3, 3], [2], [4, 4], [1], [3], [4]]
 
-lruchace(a,b)
+lrucache(a,b)
