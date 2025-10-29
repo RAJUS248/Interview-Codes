@@ -18,6 +18,7 @@ arr = [1, 2, 3, 4, 5]
 print(Rotate_Array_by_One(arr))
 
 
+# in place
 def rotate_by_one_slice(arr):
     return [arr[-1]] + arr[:-1]
 
@@ -25,6 +26,7 @@ arr = [1, 2, 3, 4, 5]
 print(rotate_by_one_slice(arr))
 
 
+# in place
 def rotate_in_place(arr):
     n = len(arr)
     if n <= 1:
@@ -42,7 +44,7 @@ def rotate_in_place(arr):
 print(rotate_in_place([1, 2, 3, 4, 5])) 
 
 
-
+# in place and time O(1)
 from collections import deque
 
 def rotates(arr):
@@ -54,4 +56,5 @@ def rotates(arr):
 arr = [1, 2, 3, 4, 5]
 
 rotates(arr)
+
 
