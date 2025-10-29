@@ -38,9 +38,8 @@ def rotate_in_place(arr):
     arr[0] = last
     return arr
 
-
-# Example tests
 print(rotate_in_place([1, 2, 3, 4, 5])) 
+
 
 
 from collections import deque
@@ -52,4 +51,5 @@ def rotates(arr):
 
     print(list(dq))
 arr = [1, 2, 3, 4, 5]
+
 rotates(arr)
