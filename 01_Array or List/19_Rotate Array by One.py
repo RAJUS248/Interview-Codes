@@ -1,3 +1,4 @@
+# using extra space
 def Rotate_Array_by_One(arr):
     
     copy = arr.copy()
@@ -53,3 +54,4 @@ def rotates(arr):
 arr = [1, 2, 3, 4, 5]
 
 rotates(arr)
+
