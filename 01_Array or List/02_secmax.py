@@ -4,7 +4,7 @@ def sec_max(arr):
     for num in arr:
         if num > maxi:
             sec_max = maxi
-            maxi = num
+            maxi = num 
 
         elif num > sec_max and num != maxi:
             sec_max = num
@@ -16,5 +16,6 @@ def sec_max(arr):
         return sec_max
 
 arr = [10, 20, 4, 45, 99]
+
 
 print(sec_max(arr))
